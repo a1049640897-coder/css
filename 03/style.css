@@ -1,0 +1,287 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #f3f5f7;;
+}
+
+.box {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 42px;
+    /*background-color: palegoldenrod;*/
+    margin: 30px auto;
+}
+
+.header .logo {
+    float: left;
+    height: 42px;
+}
+
+.header .nav li {
+    list-style: none;
+    float: left;
+    margin-left: 60px;
+    line-height: 42px;
+}
+
+.header .nav a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: #333;
+}
+
+.header .nav a:hover {
+    border-bottom: 2px solid burlywood;
+}
+
+.header .search {
+    height: 42px;
+    width: 412px;
+    background-color: skyblue;
+    float: left;
+    margin-left: 70px
+}
+
+.search input {
+    height: 40px;
+    width: 345px;
+    border: 1px solid skyblue;
+    border-right: 0;
+    padding-left: 15px;
+    float: left;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background: url("./images/btn.png");
+}
+
+.user {
+    float: right;
+    line-height: 42px;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.banner {
+    background: #1C036C;
+}
+
+.banner .box {
+    height: 412px;
+    background: #888888;
+    background: url("./images/banner2_20190819_210028.png") no-repeat center center;
+}
+
+.banner .box .box-left {
+    width: 190px;
+    height: 412px;
+    background: #00a4ff;
+    background: rgba(0, 0, 0, .3);
+    float: left;
+}
+
+.banner .box-left ul li {
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+}
+
+.banner .box-left ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner .box-left ul li a span {
+    float: right;
+}
+
+.banner .box .box-right {
+    width: 230px;
+    height: 300px;
+    float: right;
+    background: #fff;
+    margin-top: 50px;
+}
+
+.box-right h2 {
+    height: 48px;
+    background: #9BCEEA;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+}
+
+.right-bottom {
+    padding: 0 20px;
+}
+
+.right-bottom ul li {
+    list-style: none;
+    padding: 14px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.send {
+
+}
+
+.send .box {
+    margin-top: 10px;
+    height: 60px;
+    background: white;
+    box-shadow: 0 2px 3px 3px rgb(0 0 0 / 10%);
+    line-height: 60px;
+}
+
+.send .box ul li {
+    list-style: none;
+    float: left;
+}
+
+.send .box h4 {
+    float: left;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+.send .box ul {
+    float: left;
+    margin-left: 30px;
+}
+
+.send .box a {
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.main .box {
+    height: 45px;
+    line-height: 45px;
+}
+
+.main .box h3 {
+    float: left;
+}
+
+.main .box .title {
+    float: right;
+    color: gray;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.clearfix .box ul {
+    width: 1225px;
+}
+
+.clearfix .box ul li {
+    width: 228px;
+    height: 270px;
+    background: #fff;
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.clearfix .box ul li img {
+    width: 100%;
+}
+
+.clearfix .box ul li h4 {
+    margin: 20px 20px 20px 25px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.clearfix .box ul li p {
+    margin: 0 20px 0 25px;
+    font-size: 12px;
+    color: #999;
+}
+
+.clearfix .box ul li span {
+    color: orange;
+}
+
+.clearfix .box ul:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.footer {
+    height: 415px;
+    background: white;
+}
+
+.footer .box {
+    /*margin-top: 30px;*/
+    padding-top: 30px;
+}
+
+.footer .box .box-left {
+    float: left;
+}
+
+.footer .box .box-left p {
+    font-size: 12px;
+    color: #666;
+    margin: 20px 0 15px 0;
+    width: 200px;
+}
+
+.footer .box .box-left a {
+    display: block;
+    width: 118px;
+    height: 33px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 33px;
+    color: #00a4ff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer .box .box-right {
+    float: right;
+}
+
+.footer .box .box-right dl {
+    float: left;
+    margin-left: 100px;
+}
+
+.footer .box .box-right dl dt {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.footer .box .box-right dl dd  a{
+    color: #333;
+    font-size: 12px;
+   text-decoration: none;
+}
