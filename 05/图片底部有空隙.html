@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            border: 1px solid black;
+        }
+        /*因为图片底部是和基线对齐的所以底部会留有空隙*/
+
+        /*解决方式1*/
+        /*.box img {*/
+        /*    vertical-align: middle;*/
+        /*}*/
+        /*解决方式2*/
+        .box img {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+ <div class="box">
+     <img src="./images/bg1.png" alt="">
+ </div>
+</body>
+</html>

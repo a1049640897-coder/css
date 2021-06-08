@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: saddlebrown;
+            margin-left: 10px;
+            float: left;
+        }
+
+        /*第一种方式*/
+        .demo::after {
+            content: '';
+            clear: both;
+            display: block;
+        }
+
+        .demo::before.demo::after {
+            content: '';
+            display: table;
+        }
+    </style>
+</head>
+<body>
+<div class="demo">
+    <div class="item">ds</div>
+    <div class="item">ds</div>
+</div>
+</body>
+</html>

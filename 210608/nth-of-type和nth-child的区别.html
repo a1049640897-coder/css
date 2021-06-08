@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        /*nth-of-type 先看nth 前面的元素 再来定位（）里面的数字*/
+        ul li:nth-of-type(2) {
+            color: #00a4ff;
+        }
+
+        /*nth-child 先看（）里面的数字 再来确定前面的元素*/
+        ul li:nth-child(1) {
+            color: #888888;
+        }
+
+        ul p:nth-child(1) {
+            color: #1c036c;
+        }
+
+    </style>
+</head>
+<body>
+  <ul>
+      <li>哈哈</li>
+      <li>呜呜</li>
+      <li>苦苦</li>
+      <li><p>我iwi我</p></li>
+  </ul>
+</body>
+</html>
