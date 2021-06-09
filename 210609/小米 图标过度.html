@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            margin: 10px auto;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            background-color: pink;
+            overflow: hidden;
+        }
+
+        .box_in {
+            position: absolute;
+            display: flex;
+            left: -20px;
+            background-color: saddlebrown;
+            transition: all .5s;
+        }
+
+        .box_in:hover {
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="box_in">
+        <img src="./images/error.png" alt="">
+        <img src="./images/success.png" alt="">
+    </div>
+</div>
+</body>
+</html>
